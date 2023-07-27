@@ -1,6 +1,7 @@
 # microservices-python
 microservices-python
-- Istio Architecture
+Project Details 
+I am creating a Simple Python web application using Flask Framework for rendering JSON, static and Dynamic content
 - Installing Python 3.X
 - Creating Python Virtual Environments
 - Installing Python VS Code Extension

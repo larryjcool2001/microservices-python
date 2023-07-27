@@ -5,9 +5,8 @@ metadata:
 spec:
   type: NodePort
   selector:
-    app.kubernetes.io/name: web
+    app: web
   ports:
-      # By default and for convenience, the `targetPort` is set to the same value as the `port` field.
     - port: 80
       targetPort: 5000
      

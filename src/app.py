@@ -24,7 +24,7 @@ def health():
 @app.route("/details")
 def details(): 
     hostname, ip = fetchdetails()
-    return render_template('index.html', hostname=hostname, IP=ip)
+    return render_template('index.html', HOSTNAME=hostname, IP=ip)
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=5000)
+    app.run(host='0.0.0.0', port=5000) 
