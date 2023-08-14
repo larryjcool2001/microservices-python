@@ -20,7 +20,6 @@ def health():
         status="UP"
     )
 
-
 @app.route("/details")
 def details(): 
     hostname, ip = fetchdetails()
