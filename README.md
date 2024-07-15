@@ -16,4 +16,4 @@ I am creating a Simple Python web application using Flask Framework for renderin
 - Writing Kubernetes Manifest files for the application.
 - Creating Helm Chart by modifying the deployment.yaml, service.yaml and values.yaml
 - Applied the Helm Chart to the Kubernetes cluster.
-- Used AWS CodePipeline with AWS CodeBuild to test code and run builds for the CI/CD pipeline operation
+- Used AWS CodePipeline with AWS CodeBuild to test code and run builds for the CI/CD pipeline operation...
